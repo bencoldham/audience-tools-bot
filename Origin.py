@@ -6,7 +6,7 @@ import xlwings
 
 while True:
     #open page
-    webpage = 'INPUT REFERALL LINK HERE'
+    webpage = 'INPUT REFERAL LINK HERE'
     driver = webdriver.Chrome()
     driver.get(webpage)
     webpage = driver.page_source
